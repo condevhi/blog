@@ -1,0 +1,10 @@
+---
+layout: post
+title: "New Day"
+date: 2015-11-16T14:04:34-10:00
+---
+
+## It's a New Day
+
+Let's begin...
+
