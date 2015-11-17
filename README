@@ -1,0 +1,11 @@
+## Up and running
+
+Bundle project to install dependencies. To create a new post:
+
+> octopress new post "My New Post"
+
+Modify the new post file in _post directory. To deploy:
+
+> octopress deploy
+
+This command reads _deploy.yml configuration to deploy to condevhi.github.io repository.
