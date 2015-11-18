@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'octopress', '~>3.0.0'
+gem 'octopress'
+gem 'jekyll'
