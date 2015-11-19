@@ -21,3 +21,12 @@ markdown: kramdown
 
 kramdown:
   input: GFM
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
+
