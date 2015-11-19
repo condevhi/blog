@@ -21,7 +21,7 @@ The first step is to create a file in /etc/logrotate.d directory. Giving it the 
   delaycompress
   notifempty
   copytruncate
-  datext
+  dateext
 }
 ```
 Options:
