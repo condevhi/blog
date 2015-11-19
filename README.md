@@ -23,6 +23,6 @@ To deploy:
 
 `
 bundle exec octopress deploy
-i`
+`
 
 *Note*: This command reads _deploy.yml configuration to deploy to condevhi.github.io repository.
