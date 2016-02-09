@@ -1,4 +1,5 @@
 # Up and running
+Clone the development repository, [blog](https://github.com/condevhi/blog) (not the production repository [condevhi](https://github.com/condevhi/condevhi.github.io)).
 
 Bundle project to install dependencies. To create a new post:
 
@@ -26,3 +27,4 @@ bundle exec octopress deploy
 `
 
 *Note*: This command reads _deploy.yml configuration to deploy to condevhi.github.io repository.
+
