@@ -70,7 +70,7 @@ jruby -S bundle exec rake db:migrate:status
 No Emails
 ---------
 The new Redmine/Rails needs different email configurations:
-https://www.redmine.org/boards/1/topics/31520
+<https://www.redmine.org/boards/1/topics/31520>
 specifically,:
 {% highlight shell %}
 authentication: :none
