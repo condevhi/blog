@@ -67,6 +67,19 @@ set RAILS_ENV=production
 jruby -S bundle exec rake db:migrate:status
 {% endhighlight %}
 
+No Emails
+---------
+The new Redmine/Rails needs different email configurations:
+<https://www.redmine.org/boards/1/topics/31520>
+specifically,:
+{% highlight shell %}
+authentication: :none
+enable_starttls_auto: false
+openssl_verify_mode: 'none'
+{% endhighlight %}
+
+Keep in mind that staging and production environments have different email server architectures.
+
 New Secrets
 -----------
 Just a note that Rails is now expecting all secret tokens to be located in `config/secrets.yml`.  There were no issues involving this during the upgrade.
